@@ -154,6 +154,18 @@ miner-side credited share in article vocabulary
 Use incentives for glossary references; use miner incentive when this article's concept label is
 needed.
 
+## Distinction from Consensus Score
+
+Consensus score is the stake-weighted clipping benchmark Yuma uses while processing validator weight
+input. Miner incentive is the miner-facing emission share credited after that input is clipped,
+aggregated into rank, and normalized
+([Glossary: Consensus Score](https://docs.learnbittensor.org/resources/glossary#consensus-score),
+[Glossary: Incentives](https://docs.learnbittensor.org/resources/glossary#incentives),
+[Yuma Consensus](https://docs.learnbittensor.org/learn/yuma-consensus)).
+
+- **Consensus score** — clipping benchmark inside Yuma.
+- **Miner incentive** — credited miner reward after rank is normalized.
+
 ## Distinction from Rank
 
 Rank is the consensus standing after clipped weights are merged. Miner incentive is the emission
@@ -290,6 +302,7 @@ not replace rank, weight, or trust vocabulary used inside the consensus process
 
 - [Glossary: Subnet Miner](https://docs.learnbittensor.org/resources/glossary#subnet-miner)
 - [Glossary: Incentives](https://docs.learnbittensor.org/resources/glossary#incentives)
+- [Glossary: Consensus Score](https://docs.learnbittensor.org/resources/glossary#consensus-score)
 - [Emission](https://docs.learnbittensor.org/learn/emissions)
 - [Yuma Consensus: Miner emissions](https://docs.learnbittensor.org/learn/yuma-consensus#miner-emissions)
 - [Yuma Consensus](https://docs.learnbittensor.org/learn/yuma-consensus)
